@@ -5,8 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #1976d2;
+  --primary: rgba(25, 118, 210, 1);
   --font-roboto: "Roboto", sans-serif;
+  --gray: #aeaeae;
+  --borderRadius: "4px";
+  --boder: "2px";
 }
 
 body {

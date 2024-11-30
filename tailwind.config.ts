@@ -15,6 +15,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: "var(--primary)",
+        gray: "var(--gray)",
+      },
+      container: {
+        center: true,
+        screens: {
+          DEFAULT: "960px",
+        },
       },
     },
   },

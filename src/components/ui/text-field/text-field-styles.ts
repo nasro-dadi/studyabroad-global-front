@@ -7,7 +7,7 @@ export const StyledTextField = styled(TextField, {
   "& .MuiOutlinedInput-root": {
     width: search ? "323px" : "489px",
     [theme.breakpoints.down("sm")]: {
-      width: "300px",
+      width: search ? "200px" : "300px",
     },
     height: search ? "40px" : "56px",
     borderRadius: "4px",

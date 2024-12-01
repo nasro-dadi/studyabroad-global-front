@@ -19,7 +19,7 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <div className="flex justify-center items-center pt-[320px] ">
+      <div className="flex justify-center items-center pt-[100px]  sm:pt-[320px] ">
         <Loading />
       </div>
     );
@@ -27,7 +27,7 @@ export default function Home() {
 
   if (isError) {
     return (
-      <div className="flex justify-center items-center pt-[320px]  ">
+      <div className="flex justify-center items-center pt-[100px]  sm:pt-[320px]  ">
         <p className="text-center max-w-[126px] text-gray font-medium text-sm">
           Something went wrong! Please try again
         </p>
@@ -41,7 +41,7 @@ export default function Home() {
   const { books, total } = data;
   if (books.length === 0) {
     return (
-      <div className="flex justify-center items-center pt-[320px]  ">
+      <div className="flex justify-center items-center pt-[100px]  sm:pt-[320px]  ">
         <p className="text-center max-w-[126px] text-gray font-medium text-sm">
           No books found! Pleast try again
         </p>

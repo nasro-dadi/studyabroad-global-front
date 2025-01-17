@@ -1,4 +1,4 @@
-# StudyAbroad Global Front
+# StudyAbroad Global Frontend
 
 This is the front-end application for the StudyAbroad Global platform, built with Next.js, React, and Tailwind CSS.
 
@@ -6,9 +6,11 @@ This is the front-end application for the StudyAbroad Global platform, built wit
 
 - [Installation](#installation)
 - [Development](#development)
+- [Production](#production)
 - [Build](#build)
 - [Lint](#lint)
 - [Dependencies](#dependencies)
+- [Links](#links)
 - [License](#license)
 
 ## Installation
@@ -25,6 +27,14 @@ To start the development server, run:
 
 ```bash
 pnpm dev
+```
+
+## Production
+
+To start the application in production mode, run:
+
+```bash
+pnpm start
 ```
 
 ## Build
@@ -63,6 +73,11 @@ The project uses the following dependencies:
 - `tailwind-merge`
 - `zod`
 - `zustand`
+
+## Links
+
+- [Backend Repository](https://github.com/nasro-dadi/studyabroad-global-back)
+- [Live Demo](https://studyabroad-global-front.onrender.com)
 
 ## License
 
